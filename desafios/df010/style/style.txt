@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    margin: 0px;
+    background-color: #84E1AD;
+}
+
+header {
+    margin: 0px;
+    background-image: linear-gradient(to bottom, #37C677, #1A5C38);
+}
+
+header > h1 {
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header > p {
+    margin: 16px 470px;;
+    text-align: center;
+    color: white;
+}
+
+header > nav {
+    padding: 12px;
+    color: white;
+}
+
+.menu {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu:hover {
+    color: rgb(141, 139, 139);
+}
+
+main {
+    margin: auto;
+    padding: 1px 20px;
+    height: 1792px;
+    width: 925px;
+    text-align: justify;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.404);
+}
+
+article > p {
+    text-indent: 1.5em;
+}
+
+article > h1 {
+    font-size: 35px;
+    font-family: 'idroid';
+    color: #185A35;
+}
+
+article > h2 {
+    font-family: 'idroid';
+    color: #185A35;
+}
